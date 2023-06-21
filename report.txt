@@ -1,0 +1,35 @@
+** Initial plan **
+My initial plan was to start with the basics of the gui to remember how to go about using tkinter, as well as making an (intel syntax x64
+ASM version of how reverse polish notation works in regards to the shunting yard algorithim. When I had done this, it was a lot easier to find out
+how to implement it into python. (Once done, using help from psuedocode on the shunting yard algorithims wikipage). Then, after I had done the math for RPN,
+I had intended to create the custom sin/cos/tan/log10 functions, in order to do so I had to do an unfortunate amount of research on taylor series approximation
+and how to get it dead-on, which I mostly achieved. I knew I would run into a problem using that with the log10 function so I instead used a more specific
+method of binary searching. And when I had finished all of the mathematics, I went BACK to the gui in order to TRY and get the graphing function, as well as 
+the y axis dynamically scaling working, believing at the time this would be easy. (I did not succeed because of this.)
+
+
+** External libraries **
+- (Operators) After asking Avery for advice on how I would make how I was handling operators more clean, she suggested the 'operators' module which made it 
+really easy to organize and store operators.
+
+- (tkinter) The gui library that we were made to use. 
+
+- (TTButton) A fixed library for buttons on MacOS Xby a lit individual, as MacOS intentionally has button backgrounds broken.
+
+
+** Problems **
+
+1- I had unknowingly decimated and messed up my python installation which led to the tkinter version I was using being deprecated, which made the gui look 
+extremely odd, was fixed by the error message spam of THIS VERSION OF TKINTER IS DEPRECATED and having to fix my python installation.
+
+2- I ran into problem when I realized that the log10 function was extremely inaccurate when using taylor series approximation. So I instead used a different
+approach, of binary searches that got it to a similar level in terms of accuracy as the trig functions were.
+
+3- The buttons background colours weren't working whatsoever, I was unable to find a fix, as I had already ensured that I had tkinter and python installed
+correctly, so I of course googled wondering why this was happening, of course, no other than MacOSx intentionally doing this. Although, as there are no fixes
+to that sort of problem, a seperate library that replaced the Tkinter Button with TTButton was used in place as it functioned the exact same, just didn't 
+have broken colour/backgrounds for MacOS.
+
+4- The graphing feature as a whole. Initially I kept getting zerodivision errors due to a miscalculation in gui.py that led to an output of 0 and nothing
+would work at all, I attempted to fix that by entirely breaking the graphing feature, I did try to fix it but ended up having not enough time, severely
+miscalculated how much time this would take. 
