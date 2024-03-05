@@ -1,6 +1,6 @@
 """
 
-Author: Lucien No.
+Author: Aleksandr S.
 Description: Revermse polish notation graphing calculator that has a very broken graphing situation but correctly working everything else.
 Date Last Modified: June 20th, 2023.
 
