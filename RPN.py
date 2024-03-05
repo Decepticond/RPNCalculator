@@ -4,7 +4,7 @@ from themath import *
 
 """
 
-Author: Lucien No
+Author: Aleksandr S
 Date Modified: June 18th, 2023.
 Description: This file (RPN.py) uses the shunting yard algorithim, utilizing the precedences in order to get the correct (BEDMAS) order of operations. This also uses the
 operators module to organize the operators and make it easier to utilize them, alongsidie the themath module that I made in place of the math module.
