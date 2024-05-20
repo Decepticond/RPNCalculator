@@ -34,7 +34,7 @@ There aren't mmany edgy graphing calculators out there, and thus I have decided 
 **Usage:**
 
 -- In order to succesfully use this calculator, you will need to have a basic understanding of how a generic calculator functions.
--- You can click on the entry field and input whichever equation you require, or use the button, therre is a CLR buttont hat clears the entire output and input, as well as the graph that doesn't exactly work. 
+-- You can click on the entry field and input whichever equation you require, or use the button, therre is a CLR button that clears the entire output and input, as well as the graph that doesn't exactly work. 
 -- There is a del button which clears the last inputted character, as well as a graph button which if pressed aftere you input an equation/number will display
 a graph.
 
@@ -45,7 +45,7 @@ MIT one.
 
 **Contact:**
 
-Lucien no - asmodeus.ca on Discord.
+Aleksandr S - astriel.ca on Discord.
 
 
 **Project Link: https://github.com/Lazaurus/RPNCalculator/tree/main
