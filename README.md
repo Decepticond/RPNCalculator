@@ -41,8 +41,7 @@ a graph.
 
 **License:**
 
-Do not use my code.
-
+MIT one.
 
 **Contact:**
 
