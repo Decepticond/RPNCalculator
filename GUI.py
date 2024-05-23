@@ -1,7 +1,7 @@
 # I left out any overly self explanatory variables here
 
 """
-Author: Aleksandr S
+Author: Lazaurus S
 Date Modified: June 18th, 2023.
 Description: This file (GUI.py) holds the GUI class.
 
