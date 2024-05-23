@@ -1,7 +1,7 @@
 
 
 """
-Author: Aleksandr S
+Author: Lazaurus S
 Date Modified: June 18th, 2023.
 Description: This file (theamth.py) holds the custom made trig/log functions that are used in the math
 
