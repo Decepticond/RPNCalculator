@@ -45,7 +45,7 @@ MIT one.
 
 **Contact:**
 
-Decepticond S - astriel.ca on Discord.
+Decepticond S - decepticond on Discord.
 
 
 **Project Link: https://github.com/Lazaurus/RPNCalculator/tree/main
